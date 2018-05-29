@@ -1,0 +1,109 @@
+
+body
+{
+	height: 100%;
+	margin: 0;
+	background-image: url("space.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+a
+{
+	text-decoration: none;
+	display: flex;
+	color: #EEE;
+}
+
+
+.menu1
+{
+	background-color: #FFF;
+	opacity: 0.8;
+	white-space: nowrap;
+	overflow: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+	display: flex;
+	
+}
+
+.menu1 a
+{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 40px ;
+	width: 100%;
+}
+
+.menu1 a:hover
+{
+	opacity: 1;
+}
+
+.menu2
+{
+	background-color: #FFF;
+	opacity: 0.8;
+	white-space: nowrap;
+	overflow: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	
+}
+
+.menu2 a
+{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 40px ;
+	width: 100%;
+}
+
+.menu2 a:hover
+{
+	cursor: pointer;
+	opacity:1;
+}
+
+.menu3
+{
+	background-color: #8BFF00;
+	opacity: 0.8;
+	white-space: nowrap;
+	overflow: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+	display: flex;
+}
+
+.menu3 a
+{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 40px ;
+	text-decoration: none;
+	width: 100%;
+}
+
+.menu3 a:hover
+{
+	cursor: pointer;
+	opacity:1;
+}
+
+span
+{
+	color:#790FE8;
+	font-family: arial;
+	font-size: 26px;
+	width: 100%;
+}
+
