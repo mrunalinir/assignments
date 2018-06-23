@@ -1,0 +1,81 @@
+<style>
+body
+{
+	background-color: #000;
+	margin: none;
+	align-items: center;
+	cursor: pointer;
+
+}
+.main 
+{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width:100%;
+	height:600px;
+	
+}
+
+.out
+{
+	z-index:100;
+	display: absolute;
+	width:80%;
+	text-align: center;
+}
+
+.button
+{
+	background-color: transparent;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	font-size:24px;
+	text-decoration: inline-block;
+	color: #E5B609;
+	border-radius: 15px;
+}
+.button:hover
+{
+	background-color: #E5B609;
+	cursor: pointer;
+	color: black;
+}
+
+.layer
+{
+	position: absolute;
+	height: auto;
+	margin-left: auto;
+	margin-right:  auto;
+	z-index:0;
+}
+
+.logo
+{
+	position: relative;	
+	height: 50%;
+	width: 85%;
+}
+
+.clouds
+{
+	margin-top:0px;
+	position: absolute;
+	height: 700px;
+	width:100%;
+	z-index:50;
+}
+
+.objects
+{
+	margin-top:0px;
+	position: absolute;
+	height: 700px;
+	width:100%;
+	z-index:60;
+}
+
+</style>
