@@ -11,7 +11,7 @@ function check(e)
 	var y=h/2-b;
 	var i=0;
  	pix=document.querySelectorAll("img[data-depth]");
- 	for(i=0; i<11; i++)
+ 	for(i=0; i<pix.length; i++)
  	{
     pix[i].style.marginRight=pix[i].dataset["depth"]*Math.sign(x) * Math.sqrt(Math.abs(x)) * 8+"px";
     pix[i].style.marginBottom=pix[i].dataset["depth"]*Math.sign(y) * Math.sqrt(Math.abs(y)) * 8+"px";
